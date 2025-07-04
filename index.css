@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  font-family: serif;
+  background: #330000;
+  color: white;
+}
+
+.sidebar {
+  width: 220px;
+  background: rgba(102, 0, 0.95);
+  padding: 32px 16px 16px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  border-top-right-radius: 32px;
+  border-bottom-right-radius: 32px;
+}
+
+main {
+  position: relative;
+  margin-left: 250px;
+  padding: 32px 40px;
+}
+
+img {
+  width: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  height: 180px;
+}
+
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.badges {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.badge {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 18px;
+  padding-right: 18px;
+  border-radius: 24px;
+  color: #330000;
+  background-color: #ff4500;
+  margin-bottom: 16px;
+}
+
+.planet-centerpiece {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.space-pods {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.space-pod {
+  border-radius: 50px;
+  margin-bottom: 16px;
+  color: #ff6b6b;
+  text-decoration: none;
+  background-color: #ff4500;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 32px;
+  padding-right: 32px;
+  display: inline-block;
+  position: relative;
+  box-shadow: #ff4500;
+  overflow: hidden;
+}
+
+.galatic-expo-teaser{
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-right: 24px;
+  padding-left: 24px;
+  background-color: #ff4500aa;
+  border-radius: 32px;
+  text-align: center;
+}
+
+.galatic-expo-teaser h3{
+  color: #ff6b6b;
+  font-size: 24px;
+  margin-bottom: 16px;
+  font-family: sans-serif; 
+}
+
+.expo-stage{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 12px;
+}
+
+.glowing-stage{
+  width: 120px;
+  height: 24px;
+  background: #ff4500;
+  border-radius: 50%;
+  margin-bottom: 8px;
+}
+
+.alien-crowd{
+  font-size: 2em;
+  letter-spacing: 0.2em;
+  
+}
