@@ -1,94 +1,94 @@
 main {
-    position: relative;
-    margin-left: 250px;
-    padding: 32px 40px;
-  }
-  
-  body {
-    margin: 0;
-    font-family: serif;
-    background: #330000;
-    color: white;
-  }
-  
-  .sidebar {
-    width: 220px;
-    background: rgba(102, 0, 0.95);
-    padding: 32px 16px 16px;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    top: 0;
-    border-top-right-radius: 32px;
-    border-bottom-right-radius: 32px;
-  }
+  position: relative;
+  margin-left: 250px;
+  padding: 32px 40px;
+}
 
-  .badges {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    width: 100%;
-  }
-  
-  .badge {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 18px;
-    padding-right: 18px;
-    border-radius: 24px;
-    color: #330000;
-    background-color: #ff4500;
-    margin-bottom: 16px;
-  }
+body {
+  margin: 0;
+  font-family: serif;
+  background: #330000;
+  color: white;
+}
 
-  .space-pod {
-    border-radius: 50px;
-    margin-bottom: 16px;
-    color: #ff6b6b;
-    text-decoration: none;
-    background-color: #ff4500;
-    padding-top: 18px;
-    padding-bottom: 18px;
-    padding-left: 32px;
-    padding-right: 32px;
-    display: inline-block;
-    position: relative;
-    box-shadow: #ff4500;
-    overflow: hidden;
-  }
+.sidebar {
+  width: 220px;
+  background: rgba(102, 0, 0.95);
+  padding: 32px 16px 16px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  border-top-right-radius: 32px;
+  border-bottom-right-radius: 32px;
+}
 
-  .planet-title{
-    font-size: 2.2em;
-    border-radius: 12px;
-    background-color: #501e1433;
-    color: #ff5722;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    padding-left: 12px;
-    padding-right: 12px;
-  }
+.badges {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
 
-  .planet-description{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+.badge {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 18px;
+  padding-right: 18px;
+  border-radius: 24px;
+  color: #330000;
+  background-color: #ff4500;
+  margin-bottom: 16px;
+}
 
-  .planet-description p{
-    font-size: 1.2em;
-    color: #fff;
-    background: #ff572226;
-    border-radius: 16px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 18px;
-    padding-right: 18px;
-    margin-bottom: 12px;
-    outline: none;
-  }
+.space-pod {
+  border-radius: 50px;
+  margin-bottom: 16px;
+  color: #ff6b6b;
+  text-decoration: none;
+  background-color: #ff4500;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 32px;
+  padding-right: 32px;
+  display: inline-block;
+  position: relative;
+  box-shadow: #ff4500;
+  overflow: hidden;
+}
 
-  .planet-img{
+.planet-title {
+  font-size: 2.2em;
+  border-radius: 12px;
+  background-color: #501e1433;
+  color: #ff5722;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.planet-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.planet-description p {
+  font-size: 1.2em;
+  color: #fff;
+  background: #ff572226;
+  border-radius: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 18px;
+  padding-right: 18px;
+  margin-bottom: 12px;
+  outline: none;
+}
+
+.planet-img {
   width: 180px;
   object-fit: cover;
   border-width: 6px;
@@ -96,9 +96,9 @@ main {
   border-style: solid;
   border-color: #fff3;
   height: 180px;
-  }
+}
 
-.space-resource{
+.space-resource {
   border-radius: 32px;
   background: #ff8a65;
   font-size: 1.1em;
@@ -109,21 +109,20 @@ main {
   margin-top: 12px;
   text-decoration: none;
 }
-.planet-resource-map{
+.planet-resource-map {
   background: #501e14b3;
   margin: 32px;
   border-radius: 24px;
   padding: 24px 20px;
-
 }
 
-.planet-resource-map h2{  
+.planet-resource-map h2 {
   font-size: 1.3em;
   margin-bottom: 12px;
   color: #ff5722;
 }
 
-.neon-list{
+.neon-list {
   list-style: none;
   display: flex;
   gap: 24px;
@@ -132,7 +131,7 @@ main {
   flex-wrap: wrap;
 }
 
-.neon-list li{
+.neon-list li {
   font-size: 1.1em;
   background: #2f1f0f;
   margin-bottom: 8px;
@@ -144,28 +143,28 @@ main {
   border-color: #2f1f0f;
 }
 
-.cosmic-crew{
+.cosmic-crew {
   margin: 32px;
   border-radius: 24px;
   padding: 22px 0px;
   background: #501e14b3;
 }
 
-.cosmic-crew h2{
+.cosmic-crew h2 {
   font-size: 1.3em;
   margin-bottom: 12px;
   margin-left: 10px;
   color: #ff5722;
 }
 
-.crew-roster{
+.crew-roster {
   display: flex;
   gap: 32px;
   flex-wrap: wrap;
   justify-content: flex-start;
 }
 
-.crew-member{
+.crew-member {
   background: #ff572222;
   border-radius: 18px;
   margin-left: 10px;
@@ -176,18 +175,18 @@ main {
   min-width: 160px;
 }
 
-.crew-member h3{
+.crew-member h3 {
   font-size: 1.1em;
   margin-bottom: 6px;
 }
 
-.crew-member p{
+.crew-member p {
   color: #fff;
   font-size: 1em;
   margin-bottom: 8px;
 }
 
-.crew-img-placeholder{
+.crew-img-placeholder {
   font-size: 2.2em;
   border-radius: 50%;
   width: 48px;
@@ -199,19 +198,19 @@ main {
   background: #2a1a0f;
 }
 
-.code-preview-section{
+.code-preview-section {
   margin: 32px 0;
   border-radius: 24px;
   background: #501e14b3;
   padding: 24px 20px;
 }
-.code-preview-section h2{
+.code-preview-section h2 {
   font-size: 1.3em;
   margin-bottom: 12px;
   color: #ff5722;
 }
 
-.code-editor-preview{
+.code-editor-preview {
   background: #2f1a0f;
   border-radius: 16px;
   min-height: 120px;
@@ -223,8 +222,13 @@ main {
   color: #ff5722;
 }
 
-.editor-placeholder{
+.editor-placeholder {
   padding: 24px 0;
   color: #ff8a65;
   opacity: 0.7;
+}
+
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }

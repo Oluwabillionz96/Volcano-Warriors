@@ -1,0 +1,63 @@
+main {
+  position: relative;
+  margin-left: 250px;
+  padding: 32px 40px;
+}
+
+body {
+  margin: 0;
+  font-family: serif;
+  background: #330000;
+  color: white;
+}
+
+.sidebar {
+  width: 220px;
+  background: rgba(102, 0, 0.95);
+  padding: 32px 16px 16px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  border-top-right-radius: 32px;
+  border-bottom-right-radius: 32px;
+}
+
+.badges {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.badge {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 18px;
+  padding-right: 18px;
+  border-radius: 24px;
+  color: #330000;
+  background-color: #ff4500;
+  margin-bottom: 16px;
+}
+
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.space-pod {
+  border-radius: 50px;
+  margin-bottom: 16px;
+  color: #ff6b6b;
+  text-decoration: none;
+  background-color: #ff4500;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 32px;
+  padding-right: 32px;
+  display: inline-block;
+  position: relative;
+  box-shadow: #ff4500;
+  overflow: hidden;
+}
