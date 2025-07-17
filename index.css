@@ -51,6 +51,7 @@ img {
   color: #330000;
   background-color: #ff4500;
   margin-bottom: 16px;
+  cursor: pointer;
 }
 
 .planet-centerpiece {
