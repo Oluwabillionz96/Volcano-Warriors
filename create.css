@@ -61,3 +61,302 @@ body {
   box-shadow: #ff4500;
   overflow: hidden;
 }
+.page-title {
+  font-size: 2.2em;
+  text-shadow: 0 0 12px #d84315, 0 0 24px;
+  color: #ff5722;
+  margin-bottom: 16px;
+  letter-spacing: 2px;
+}
+
+.Lesson-content {
+  margin-bottom: 32px;
+}
+
+.lesson-card {
+  border-radius: 24px;
+  margin-bottom:  24px;
+  padding: 32px 24px;
+  background: #501e14b3;
+  box-shadow: 0px 0px 32px #ff572255;
+}
+.lesson-card h2 {
+  color: #ff5722;
+  margin-bottom: 16px;
+  text-shadow: 0 0 8px #d84315;
+  font-family: sans-serif;
+}
+
+.lesson-card p {
+  color: #fff;
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+.code-example {
+  margin: 24px 0;
+}
+
+.code-example h3{
+color: #d84315;
+font-family: sans-serif;
+font-size: 1.2em;
+margin-bottom: 12px;
+}
+
+.code-block{
+  padding: 16px;
+  margin: 12px 0;
+  border-radius: 12px;
+  border:2px solid #ff5722;
+   box-shadow: 0px 0px 16px #ff572255;
+   background: #2f1a0f;
+}
+
+.code-block pre{
+  margin: 0;
+  color: #ff5722;
+  font-size: 0.9em;
+  line-height: 1.4em;
+  overflow-x: auto;
+}
+
+.code-block code{
+  color: #ff5722;
+}
+
+.interactive-demo{
+  margin: 24px 0;
+}
+
+.interactive-demo h3{
+  color:#d84315 ;
+  font-family: sans-serif;
+  font-size: 1.2em;
+  margin-bottom: 12px;
+}
+
+.demo-area{
+  background:#ff57221a;
+  border-radius: 16px;
+  padding: 20px;
+  border: 2px dashed #ff5722;
+}
+
+.planet-preview{
+  text-align: center;
+}
+
+.planet-preview h1{
+  color:#d84315 ;
+  font-family: sans-serif;
+  font: style 1.8em;
+  text-shadow: 0px 0px 8px  #d84315;
+}
+
+.mission-section {
+  margin: 32px 0;
+}
+
+.mission-section h2{
+  color:#d84315 ;
+  font-family: sans-serif;
+  font-size: 1.4em;
+  margin-bottom: 16px;
+    text-shadow: 0px 0px 8px  #d84315;
+}
+.mission-card{
+background: #501e14b3;
+border-radius: 20px;
+box-shadow: 0px 0px 28px  #d84315 ; 
+}
+
+.mission-card h3{
+  font-family:sans-serif ;
+  color: #ff5722; 
+  font-size: 1.2em;
+  margin-bottom: 16px;
+}
+
+.mission-steps{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mission-steps li{
+  color: white;
+  font-style: 1em;
+  padding: 8px 0;
+  font-family: sans-serif;
+  border-bottom: 1px solid  #ff57224d;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

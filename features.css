@@ -61,3 +61,104 @@ body {
   box-shadow: #ff4500;
   overflow: hidden;
 }
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(28px, 1fr));
+  gap: 24px;
+  margin: 24px 0;
+}
+
+.feature-items {
+  border-radius: 16px;
+  padding: 20px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #ff8a65;
+  box-shadow: 0 0 16px #ff572255;
+  background: #ff572226;
+}
+
+.feature-items h3 {
+  color: #ff5722;
+  font-family: sans-serif;
+  margin-bottom: 12px;
+}
+
+feature-demo {
+  margin-top: 12px;
+  padding: 12px;
+  border-radius: 8px;
+  text-align: center;
+  background: #501e1450;
+}
+
+.demo-link {
+  text-decoration: none;
+  font-weight: bold;
+  color: #ff5722;
+  transition: color 0.2s;
+}
+
+.demo-link:hover{
+  color: #ff8a65;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
