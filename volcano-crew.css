@@ -61,3 +61,185 @@ body {
   box-shadow: #ff4500;
   overflow: hidden;
 }
+
+.lesson-content {
+  margin-bottom: 32px;
+}
+
+.lesson-card {
+  background: #501e14b3;
+  border-radius: 24px;
+  padding: 32px 24px;
+  box-shadow: 0 0 32px #ff572255;
+  margin-bottom: 24px;
+}
+
+.lesson-card h2 {
+  color: #ff5722;
+  font-family: "Orbitron", sans-serif;
+  font-size: 1.6em;
+  margin-bottom: 16px;
+  text-shadow: 0 0 8px #d84315;
+}
+
+.lesson-card p {
+  color: #fff;
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+.mission-section {
+  margin: 32px 0;
+}
+
+.mission-section h2 {
+  color: #ff5722;
+  font-family: "Orbitron", sans-serif;
+  font-size: 1.4em;
+  margin-bottom: 16px;
+  text-shadow: 0 0 8px #d84315;
+}
+
+.mission-card {
+  background: #501e14b3;
+  border-radius: 20px;
+  padding: 24px;
+  box-shadow: 0 0 24px #d84315aa;
+  border: 2px solid #d84315;
+}
+
+.mission-card h3 {
+  color: #ff5722;
+  font-family: "Fredoka One", sans-serif;
+  font-size: 1.2em;
+  margin-bottom: 16px;
+}
+
+.mission-steps {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mission-steps li {
+  color: #fff;
+  font-size: 1em;
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(255, 87, 34, 0.3);
+  font-family: "Orbitron", sans-serif;
+}
+
+.mission-steps li:last-child {
+  border-bottom: none;
+}
+
+.code-block {
+  background: #2f1a0f;
+  border-radius: 12px;
+  padding: 16px;
+  margin: 12px 0;
+  border: 2px solid #ff5722;
+  box-shadow: 0 0 16px #ff572244;
+}
+
+.code-block pre {
+  margin: 0;
+  color: #ff5722;
+  font-family: "Orbitron", monospace;
+  font-size: 0.9em;
+  line-height: 1.4;
+  overflow-x: auto;
+}
+
+.code-block code {
+  color: #ff5722;
+}
+
+.crew-showcase {
+  margin: 32px 0;
+}
+
+.crew-showcase h3 {
+  color: #ff8a65;
+  font-family: "Fredoka One", sans-serif;
+  font-size: 1.2em;
+  margin-bottom: 16px;
+}
+
+.crew-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.crew-card {
+  background: linear-gradient(120deg, #ff572222 0%, #ff8a6522 100%);
+  border-radius: 16px;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #ff5722;
+  box-shadow: 0 0 16px #ff572255;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.crew-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 24px #fff, 0 0 32px #ff8a65;
+}
+
+.crew-avatar {
+  font-size: 3em;
+  margin-bottom: 12px;
+  background: #2f1a0f;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 12px auto;
+  box-shadow: 0 0 16px #ff5722, 0 0 32px #ff8a65;
+}
+
+.crew-card h4 {
+  color: #ff5722;
+  font-family: "Fredoka One", sans-serif;
+  font-size: 1.1em;
+  margin-bottom: 8px;
+}
+
+.crew-card p {
+  color: #fff;
+  font-size: 0.9em;
+  margin-bottom: 12px;
+  line-height: 1.4;
+}
+
+.crew-stats {
+  font-size: 0.8em;
+  color: #ff8a65;
+  font-family: "Orbitron", sans-serif;
+}
+
+.crew-template {
+  margin: 32px 0;
+}
+
+.crew-template h3 {
+  color: #ff8a65;
+  font-family: "Fredoka One", sans-serif;
+  font-size: 1.2em;
+  margin-bottom: 16px;
+}
+
+.template-example {
+  display: flex;
+  justify-content: center;
+}
+
+.crew-card.template {
+  background: rgba(255, 138, 101, 0.2);
+  border: 2px dashed #ff8a65;
+  opacity: 0.8;
+}

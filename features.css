@@ -62,35 +62,45 @@ body {
   overflow: hidden;
 }
 
-.features-grid {
+.feature-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(28px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 24px;
   margin: 24px 0;
 }
 
-.feature-items {
+.feature-item {
+  background: #ff572226;
   border-radius: 16px;
   padding: 20px;
-  border-width: 2px;
-  border-style: solid;
-  border-color: #ff8a65;
+  border: 2px solid #ff8a65;
   box-shadow: 0 0 16px #ff572255;
-  background: #ff572226;
 }
 
-.feature-items h3 {
+.feature-item h3 {
   color: #ff5722;
-  font-family: sans-serif;
+  font-family: "Fredoka One", sans-serif;
+  font-size: 1.1em;
   margin-bottom: 12px;
 }
 
-feature-demo {
+.feature-demo {
   margin-top: 12px;
   padding: 12px;
+  background: #501e1480;
   border-radius: 8px;
   text-align: center;
-  background: #501e1450;
+}
+
+.demo-link {
+  color: #ff5722;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.2s;
+}
+
+.demo-link:hover {
+  color: #ff8a65;
 }
 
 .demo-link {
@@ -100,65 +110,100 @@ feature-demo {
   transition: color 0.2s;
 }
 
-.demo-link:hover{
+.demo-link:hover {
   color: #ff8a65;
 }
 
+.lesson-content {
+  margin-bottom: 32px;
+}
 
+.lesson-card {
+  background: #501e14b3;
+  border-radius: 24px;
+  padding: 32px 24px;
+  box-shadow: 0 0 32px #ff572255;
+  margin-bottom: 24px;
+}
 
+.lesson-card h2 {
+  color: #ff5722;
+  font-family: "Orbitron", sans-serif;
+  font-size: 1.6em;
+  margin-bottom: 16px;
+  text-shadow: 0 0 8px #d84315;
+}
 
+.lesson-card p {
+  color: #fff;
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
 
+.mission-section {
+  margin: 32px 0;
+}
 
+.mission-section h2 {
+  color: #ff5722;
+  font-family: "Orbitron", sans-serif;
+  font-size: 1.4em;
+  margin-bottom: 16px;
+  text-shadow: 0 0 8px #d84315;
+}
 
+.mission-card {
+  background: #501e14b3;
+  border-radius: 20px;
+  padding: 24px;
+  box-shadow: 0 0 24px #d84315aa;
+  border: 2px solid #d84315;
+}
 
+.mission-card h3 {
+  color: #ff5722;
+  font-family: "Fredoka One", sans-serif;
+  font-size: 1.2em;
+  margin-bottom: 16px;
+}
 
+.mission-steps {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 
+.mission-steps li {
+  color: #fff;
+  font-size: 1em;
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(255, 87, 34, 0.3);
+  font-family: "Orbitron", sans-serif;
+}
 
+.mission-steps li:last-child {
+  border-bottom: none;
+}
 
+.code-block {
+  background: #2f1a0f;
+  border-radius: 12px;
+  padding: 16px;
+  margin: 12px 0;
+  border: 2px solid #ff5722;
+  box-shadow: 0 0 16px #ff572244;
+}
 
+.code-block pre {
+  margin: 0;
+  color: #ff5722;
+  font-family: "Orbitron", monospace;
+  font-size: 0.9em;
+  line-height: 1.4;
+  overflow-x: auto;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.code-block code {
+  color: #ff5722;
+}
